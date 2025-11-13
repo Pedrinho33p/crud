@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CRUD Simples</title>
+</head>
+<body>
+  <h2>CRUD Simples</h2>
+
+  <!-- CREATE -->
+  <h3>Cadastrar nome</h3>
+  <form action="create.php" method="post">
+    <input type="text" name="nome" placeholder="Digite o nome">
+    <input type="submit" value="Salvar">
+  </form>
+
+  <hr>
+
+  <!-- READ -->
+  <h3>Ver nomes cadastrados</h3>
+  <form action="read.php" method="get">
+    <input type="submit" value="Mostrar nomes">
+  </form>
+
+  <hr>
+
+  <!-- UPDATE -->
+  <h3>Atualizar nome</h3>
+  <form action="update.php" method="post">
+    <input type="number" name="id" placeholder="ID do nome">
+    <input type="text" name="nome" placeholder="Novo nome">
+    <input type="submit" value="Atualizar">
+  </form>
+
+  <hr>
+
+  <!-- DELETE -->
+  <h3>Deletar nome</h3>
+  <form action="delete.php" method="post">
+    <input type="number" name="id" placeholder="ID do nome">
+    <input type="submit" value="Deletar">
+  </form>
+</body>
+</html>
