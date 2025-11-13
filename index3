@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>crud</title>
+</head>
+<body>
+
+<h3>add nome</h3>
+<form action="create.php" method="post">
+<input name="nome">
+<button>salvar</button>
+</form>
+
+<br>
+
+<form action="read.php" method="get">
+<button>ver nomes</button>
+</form>
+
+<br>
+
+<form action="update.php" method="post">
+<input name="id" placeholder="id">
+<input name="nome" placeholder="novo nome">
+<button>atualizar</button>
+</form>
+
+<br>
+
+<form action="delete.php" method="post">
+<input name="id" placeholder="id pra apagar">
+<button>apagar</button>
+</form>
+
+</body>
+</html>
